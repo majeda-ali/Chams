@@ -1,0 +1,27 @@
+.container{
+    margin: auto;
+    width:912px;
+    padding: 10px;
+}
+#title{
+    text-align: center;
+}
+#editableArea{
+    border: 1px solid black;
+    width: 100%;
+    height:350px;
+    overflow-y: auto;
+}
+#NEditableArea{
+    border: 1px solid black;
+    width: 100%;
+    height:350px;
+    overflow-y: auto;
+    background-color: lightgray; 
+}
+#options{
+    width: 100%;
+}
+.highlighting{
+    background-color:yellow;
+}

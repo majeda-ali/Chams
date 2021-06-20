@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Grid{
+    display: grid;
+    height: 100vh;
+    background-color:#eee;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "header header header header  header header "
+      "hero hero hero hero hero hero"
+      "menu main main main main main"
+      "menu main main main  main main"
+      "menu banner banner banner banner banner"
+      "menu extra extra extra image image";
+
+    text-align: center;
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+    text-transform: uppercase;
+                         
+}
+
+.header {
+     grid-area: header;
+     background-color: rgb(5, 30, 68);
+     padding-top: 17px;
+}
+.hero { 
+    grid-area: hero;
+    background-color: rgb(36, 127, 212);
+    padding-top: 50px;
+}
+.menu { 
+    grid-area: menu; 
+    background-color:rgb(245, 59, 183);
+    padding-top: 150px;
+}
+.main { 
+    grid-area: main; 
+    background-color: rgb(70, 72, 77);
+    padding-top: 100px;
+}
+.banner { 
+    grid-area: banner; 
+    background-color: rgb(238, 191, 64);
+    padding-top: 30px;
+}
+.extra { 
+    grid-area: extra; 
+    background-color: green;
+    padding-top: 15px;
+}
+.img {
+     grid-area: image; 
+     background-color: skyblue;
+     padding-top: 15px;
+    }
+
+
+    
