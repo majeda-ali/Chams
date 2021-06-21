@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POsition </title>
+ <link rel="stylesheet" href="style0.css">
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+     <img src="./position-property-0.webp" >
+     <div class="nav">
+         <a href="#"> STATIC </a>
+         <a href="#">Relative </a>
+         <a href="#">Absolute</a>
+         <a href="#">Fixed</a>
+         <a href="#">Sticky</a>
+     </div>
+     <pre class="pre1">
+    How to position ? 
+
+  1. Determine the method of positioning
+
+        position:static;
+        position:relative;
+        position:absolute;
+        position:fixed;
+        position:sticky;
+
+ 2. Specify the actual numerical values for
+        its exact coordinates
+
+        left:100px;
+        top:50px;
+        right:200px;
+        bottom:5px;
+
+     </pre>
+
+<!--Static -->
+     <div class="parent-element">
+         <h1> position-property- STATIC</h1>
+       <ul>
+        Default setting
+        <li>Positions itself according to the “normal
+            flow” (order of declaration of elements
+            in the HTML, etc)</li>
+        <li> rules like left:10px;
+            work
+            top:30%; do not work</li>
+       </ul>
+
+       <img src="static.png"  id="img-static">
+        <div class="sibling-element">
+            I'm the other sibling element.
+        </div>
+        
+        <div class="main-element">
+            All eyes on me. I am the main element.
+        </div>
+        
+        <div class="sibling-element">
+            I'm the other sibling element.
+        </div>
+    </div>
+     
+
+    <!--Realtive-->
+    <div class="parent-element2">
+        <h1> position-property- Relative</h1>
+        <ul>
+           
+            Positions itself according to its default
+            position
+            <li>Still follows the “normal flow”, maintains
+                its previous space occupied </li>
+            <li>   
+                position:relative;
+                top:50px; left:50px;
+                box moves 50px down (away from the top
+                edge), and 50px to the right (away from
+                the left edge) from its previous position</li>
+           </ul>
+
+
+          
+
+
+
+           <img src="./rela.png" id="img-relative">
+    
+        <div class="sibling-element2">
+            I'm the other sibling element.
+        </div>
+        
+        <div class="main-element2">
+            All eyes on me. I am the main element.
+        </div>
+        
+        <div class="sibling-element2">
+            I'm the other sibling element.
+        </div>
+    </div>
+    
+
+
+
+    <!--Relative position -->
+   <div class="part3-absolte">
+        <h1> position-property-  Absolute</h1>
+        <ul>
+           
+            
+            <li>Element is removed/lifted from the
+                container element, and positioned
+                according to the edges of the canvas </li>
+            <li>  position:absolute;
+                top:0px; left:0px;
+                box is attached to the upper-left corner of
+                the canvas, not the container element
+      
+                </li>
+           </ul>
+
+        </div>
+          
+
+
+
+           <img src="./absol.png" id="img-absol">
+           <div class="parent-element3">
+        <div class="sibling-element3">
+            I'm the other sibling element.
+        </div>
+        
+        <div class="main-element3">
+            All eyes on me. I am the main element.
+        </div>
+        
+        <div class="sibling-element3">
+            I'm the other sibling element.
+        </div>
+    </div>
+
+
+    <div class="fixed">
+
+        <h1> Fixed   </h1>
+        <p>
+            Fixed position elements are similar to absolutely positioned elements. They are also removed from the normal flow of the document. 
+        </p>
+
+        <div class="parent-element4">
+            <div class="sibling-element4">
+                I'm the other sibling element.
+            </div>
+            
+            <div class="main-element4">
+                All eyes on me. I am the main element.
+            </div>
+            
+            <div class="sibling-element4">
+                I'm the other sibling element.
+            </div>
+        </div>
+    </div>
+    <pre>
+         . .
+          .
+          .
+          . 
+          . 
+          . 
+          . 
+          . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . . .
+          .
+          .
+          . 
+          . 
+          . 
+          . 
+     </pre>
+</body>
+</html>

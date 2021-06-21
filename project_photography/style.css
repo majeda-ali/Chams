@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(10, 10, 10);
+}
+
+
+.nav{
+    display: flex;
+    width: 100%;
+    background-color:black;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3000;
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgb(187, 187, 187), -0.5px 0 .1px rgb(187, 187, 187);
+}
+
+.nav a{
+    position: relative;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 14px;
+   
+}
+
+.nav a:hover ,.icon i:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+#home:visited{
+    color: yellow;
+
+}
+
+.nav-a{
+    margin-right: 176px;
+    margin-left: 300px;
+}
+#logo{
+    display: flex;
+    position: absolute;
+    left:10px;
+    right: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 75px;
+}
+
+.icon{
+    display: contents;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+.icon i{
+    padding:0 8px;
+}
+
+/*                 -------------------*/
+
+
+.hero {
+    margin-bottom: 55px;
+    font-size: 30px;
+    line-height: 70px;
+    color: rgb(214, 207, 207);
+    margin: 60px 40px;
+    font-family: 'New Tegomin', serif;
+}
+
+
+.text-center {
+    text-align: center;
+     margin: 60px 20px;
+}
+
+
+.one{
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+.one span{
+    display: inline;
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+   
+
+}
+#all{
+    box-shadow: 0 2px 0 #80c9a1;
+}
+
+ /*    -------------------- Grid images  -----------------*/ 
+.parent .contianer div{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(175px , 1fr));
+    grid-template-rows:repeat(auto-fill, minmax(94px , 1fr));
+    gap: 15px ;
+
+}
+
+.parent .contianer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.parent .contianer img{
+    width: 300px;
+    border: 2px solid black;
+}
+.col-1 img{
+    height: 170px;  
+
+}
+
+.col-2 img{
+    height: 150px;
+}
+.col-3 img{
+    height: 120px; 
+}
+.col-4 img{
+    height: 200px;  
+}

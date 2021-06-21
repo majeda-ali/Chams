@@ -1,0 +1,44 @@
+ h1{
+    text-align: center;
+    font-size: 30pt;
+    color:rgb(20, 27, 119);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+
+
+    #home{
+        font-size: 20pt;
+        color: green !important;
+        font-family: monospace;
+    }
+
+    .nav-rel{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: yellow;
+        padding: 50px;
+        font-size: 20px;
+        background-color: rgb(247, 223, 250);
+        color:white;
+        font-weight :bolder
+    
+    }
+
+    
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:palevioletred  !important;
+   
+
+}
+
+h3 ,p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+article  p{
+    color:rgb(1, 47, 253);
+}

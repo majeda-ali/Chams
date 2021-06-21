@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(7, 21, 39);
+}
+img{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    z-index: 100;
+    margin-bottom: 20px;
+}
+
+.nav{
+    display: flex;
+    background-color: darkcyan;
+    position: sticky;
+    top:0;
+    z-index: 10000;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: nowrap;
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 4px;
+    
+
+
+}
+
+.nav a:hover{
+    background-color: violet;
+    font-style: italic;
+}
+.pre1{
+    display: block;
+    color: skyblue;
+    font-weight: bold;   
+     border: 2px solid yellow ;
+     border-radius: 20px;
+     font-family:monospace;
+     padding: 20px;
+     margin-top: 40px;
+}
+.parent-element{
+    margin-top: 40px;
+display: inline-block;
+
+}
+.parent-element h1 , .part3-absolte h1 {
+    color: yellow;
+    padding: 20px;
+    box-shadow: 2px 2px 1px skyblue;
+    margin-bottom: 20px;
+}
+.parent-element>ul,li , .part3-absolte>ul,li{
+    display: block;
+    margin: 20px;
+    
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: bold;
+}
+.main-element {
+
+    position: static;  /*  and again change the propertiy for relative */
+    left: 10px;
+    bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.sibling-element {
+    padding: 10px;
+    background-color: #fdc6c6;
+  /*  margin-top: 40px;*/
+}
+
+#img-static , #img-relative , #img-absol{
+display: block;
+justify-content: flex-end;
+height: 400px;
+width: 400px;
+
+}
+
+
+/*  Realtive */
+
+.main-element2 {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+
+.parent-element2{
+    margin-top: 40px;
+display: inline-block;
+margin: 10%;
+
+
+}
+.parent-element2 h1{
+    color: yellow;
+    padding: 20px;
+    box-shadow: 2px 2px 1px skyblue;
+    margin-bottom: 20px;
+}
+.parent-element2>ul,li{
+    display: block;
+    margin: 20px;
+    
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: bold;
+}
+.main-element2 {
+
+    position: relative;  /*  and again change the propertiy for relative */
+    left: 10px;
+    bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.sibling-element2 {
+    padding: 10px;
+    background-color: #fdc6c6;
+  /*  margin-top: 40px;*/
+}
+
+
+/* Absolute */
+
+.parent-element3 {
+    position: relative;
+    height: 100px;
+    padding: 10px;
+    background-color: #81adc8;
+    margin-bottom: 50px;
+}
+
+.main-element3 {
+    position: absolute;
+    left: 20px;
+    bottom: 70px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+
+
+.sibling-element3 {
+	background: #f2f2f2;
+	padding: 10px;
+    border: 1px solid #81adc8;
+} 
+
+/* Fixed */
+
+.sibling-element4 {
+	background: #f2f2f2;
+	padding: 10px;
+  border: 1px solid #81adc8;
+} 
+
+.main-element4 {
+   /* position: fixed;*/
+    bottom: 10px;
+    left: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.parent-element4 {
+    position: relative;
+    height: 100px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.fixed{
+    background-color: thistle;
+    color: black;
+    font-weight: bolder;
+    font-family: fantasy;
+    
+}

@@ -1,0 +1,95 @@
+/*  External Style  */
+
+
+
+h1{/* tag name */
+    color: maroon;
+    text-align: center;
+  }
+
+
+.intro{ /* Class name  */
+    display: flex;
+    position: sticky;
+    top:0;
+    font-family: monospace;
+    color: rgb(231, 73, 73);
+    font-weight: bolder;
+}
+
+/* Multiple Classes*/
+ 
+.img{
+    background-color:rgb(38, 196, 199);
+  
+}
+
+.sectionCSS {
+    font-size: 20px;
+    font-family: sans-serif;
+    color:rgb(0, 76, 139);
+}
+
+
+/* ID Name */
+#css-syntax{
+    width: 400px;
+    height: 350px;
+}
+
+/* Nested Elements */ 
+
+ul,a{
+    color: fuchsia;
+    font-size: 20px;
+}
+
+
+
+/*  Specificity  
+        
+most specificity level 
+ Inline style  -> id -> class ->element
+*/
+ #specificity{
+     color: green;
+ }
+.specificity{
+    color: hotpink;
+}
+p{
+    color:indigo;
+}
+
+
+/*
+
+Chaining Selectors
+*/
+.Select p{
+    color:midnightblue
+}
+
+/* Multiple Selectors */
+.end , h4{
+    color: rgb(109, 8, 67);
+    background-color: rgb(221, 183, 220);
+}
+
+
+
+/*  Visual Rules :{  font-family ,  font-size   , font-weight ,   text-align ,  color and background-color }  */ 
+
+/*  dir property   vs   text-align  */ 
+h5{
+    text-align: center;
+}
+ 
+
+/* opacity  property  */ 
+
+
+
+/*  background-image property    */ 
+
+
